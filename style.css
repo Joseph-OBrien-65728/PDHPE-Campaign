@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    transition: all 1s;
+    transition-timing-function: ease-in-out;
+}
+
+html
+{
+    font-family: Garamond, serif;             
+    font-size: 1em;                          
+    background-color: black;
+}
+
+header{
+    background-color: whitesmoke;
+
+}
+
+nav{
+    font-style:italic;
+    font-weight:bold;
+}
+
+sub{
+    font-size: 1em;
+    color: lightgray;
+    font-style: italic;
+}
+
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    padding: .2em;
+}
+
+
+h2{
+    color: whitesmoke;
+}
+
+h4{
+    color: whitesmoke;
+}
+
+li{
+    color: white;
+}
+
+table{
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+tr{
+    color:white;
+}
+td{
+    width: 1ch;
+}
+.smallp{
+    width:25ch;
+}
+
+nav > ul > li{
+    color: black;
+    display: inline;
+    font-size: 1.2em;
+    padding: .8em; 
+}
+
+nav > ul > li:hover{
+    background: rgb(0,0,0);
+    font-size: 2em;
+}
+
+nav > ul > li > a{
+    color: black;
+    text-decoration:none;
+}
+nav > ul > li > a:hover{
+    color: red;
+}
+
+hr{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    margin:0;
+    padding: 0.2em;
+    line-height: 1;
+}
+
+video{
+    margin: 1em;
+    max-height: 60ch;
+    max-width: 120ch;
+}
+
+img{
+    margin: 1em;
+    max-height: 34ch; 
+    max-width: 70ch;
+}
+
+main{
+    margin: 2em;
+    padding: 1em;
+    background-color: rgb(14, 14, 14);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#video {
+    margin: 1em;
+}
+
+p{
+    width: 75ch;
+    color: white;
+    padding: 0.5em;
+    margin:1em;
+}
